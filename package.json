@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "fimidara": "^1.34.0"
+    "fimidara": "^1.34.0",
+    "uuid": "^11.1.0"
   }
 }
