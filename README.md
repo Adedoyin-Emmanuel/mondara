@@ -1,15 +1,5 @@
-# mondara
+# Playing with Fimidara 🎖️
 
-To install dependencies:
+You get the joke. In this repo, I will be playing with Fimidara. Basically the SDK though, I will be doing major stuff and I will use this README as my notetaker. <https://fimidara.com> Fimidara is an open source file storage for software engineers. Built by Abayomi Akintomide. I call him Yomi btw.
 
-```bash
-bun install
-```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
