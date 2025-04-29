@@ -12,23 +12,23 @@ const fimidara = new FimidaraEndpoints({
  * But then, let's try. Lol It isn't possible. Let's create a folder first then.
  */
 
-// const folder = await fimidara.folders.addFolder({
-//   description: "This is a test folder",
-//   folderpath: "temi",
-// });
+const folder = await fimidara.folders.addFolder({
+  description: "This is a test folder",
+  folderpath: "temi",
+});
 
-//console.log(JSON.stringify(folder, null, 2));
+console.log(JSON.stringify(folder, null, 2));
 
-// const workspaceRootname = "temi";
+const workspaceRootname = "temi";
 
-// const file = await fimidara.files.uploadFile({
-//   data: fs.readFileSync("./assets/emma.jpg"),
-//   size: fs.statSync("./assets/emma.jpg").size,
-//   filepath: `${workspaceRootname}/Temi`,
-//   description: "A picture of Emma",
-// });
+const file = await fimidara.files.uploadFile({
+  data: fs.readFileSync("./assets/emma.jpg"),
+  size: fs.statSync("./assets/emma.jpg").size,
+  filepath: `${workspaceRootname}/Temi`,
+  description: "A picture of Emma",
+});
 
-// console.log(JSON.stringify(file, null, 2));
+console.log(JSON.stringify(file, null, 2));
 
 const files = await fimidara.files.getFileDetails({
   fileId: "file000_pFD1-usV5KmEhn9QDlj1I",
